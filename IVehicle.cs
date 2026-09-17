@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace session07C_
 {
-    internal interface IVehicle
+    internal interface IVehicle:IMoveable ,IFlyable
     {
     }
 }
